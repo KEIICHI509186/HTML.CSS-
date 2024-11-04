@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+親要素　子要素　{
+  color: red;
+}
+
+div p, div a {
+
+}
+
+p.text.red {
+
+}
+
+div p
+
+div p, div a
+
+p#text.red
+
+.text.red
+
+#text.red
+
+input, select {
+  vertical-align: middle;
+}
+
+p {
+  color: red;
+  font-size: 12px;
+}

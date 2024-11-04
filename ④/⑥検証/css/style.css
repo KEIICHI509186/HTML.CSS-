@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+p {
+  font-size: 16px;
+  color: red;
+}
+
+p {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p.point {
+  font-size: 18px;
+  color: blue;
+}
+
+#box01 p {
+  color: blue;
+}
+
+.box p {
+  color: black;
+}

@@ -1,0 +1,36 @@
+html {
+  display: block;
+}
+
+.relative {
+  position: absolute;
+  top: 0;
+}
+.fixed .mark {
+  position: fixed;
+  bottom: 0;
+  z-index: -1;
+}
+.mark {
+  background: plum;
+  margin: 0;
+}
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background: skyblue;
+}
+
+.container {
+  width: 600px;
+  padding: 10px;
+  margin-bottom: 150px;
+  background: #ddd;
+}
+
+div {
+  display: block;
+}

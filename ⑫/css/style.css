@@ -1,0 +1,36 @@
+@import "variable.scss";
+$mainColor:#a00;
+@mixin btn($bgColor){
+  background:$bgColor;
+  padding:8px 10px 6px;
+  color: #fff;
+}
+.header{
+  .logo{
+    font-size:12px;
+  }
+  .tagline{
+    font-size:14px;
+  }
+  .menu{
+    ul{
+      display:flex;
+      li{
+        font-size:16px;
+        border-right:1px solid #ddd;
+        list-style:none;
+        padding:0 10px;
+        &.contact{
+          a{
+            @include btn(#a00);
+          }
+        }
+        &.document{
+          a{
+            @include btn(#005fff);
+          }
+        }
+      }
+    }
+  }
+}

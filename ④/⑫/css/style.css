@@ -1,0 +1,35 @@
+element {
+  line-height: 50px;
+  background: red;
+  vertical-align: middle;
+}
+p {
+  display: inline-block;
+  padding: 0 10px;
+  text-align: center;
+  border: 1px solid;
+}
+
+element.style {
+  display: flex;
+  align-items: center;
+}
+div {
+  height: 400px;
+  background: #ccc;
+}
+
+.box {
+  width: 400px;
+  width: 100px;
+  min-height: 100px;
+  height: 200px;
+  background: #f5b551;
+  text-align: center;
+  line-height: 200px;
+}
+
+div {
+  height: 400px;
+  background: #ccc;
+}

@@ -1,0 +1,10 @@
+element.style {
+  width: 350px;
+  padding: 20px;
+  margin: 0 auto;
+  background: yellow;
+}
+
+element.style {
+  text-align: center;
+}

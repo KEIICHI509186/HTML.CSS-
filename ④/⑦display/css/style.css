@@ -1,0 +1,19 @@
+.box {
+  min-height: 100px;
+  margin-bottom: 10px;
+  background: #f5b551;
+  text-align: center;
+  line-height: 100px;
+}
+body {
+  margin: 20px;
+  text-align: center;
+}
+body {
+  line-height: 1;
+}
+.part {
+  display: block;
+  margin: 0 10px;
+  background: #A9CEEC;
+}
